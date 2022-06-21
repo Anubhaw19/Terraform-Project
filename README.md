@@ -17,7 +17,7 @@ Creating following resources on `AWS` using **Terraform Template**
 
 - `EC2 Instance`
 
-after crerating these resources ,running a `Docekr` container to start a `Nginx` server.
+after crerating these resources ,running a `Docker` container to start a `Nginx` server.
 
 the whole infrastructure creation is automated via `Terraform`.
 
