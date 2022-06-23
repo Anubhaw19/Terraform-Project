@@ -1,3 +1,12 @@
+terraform {
+  required_version = ">=0.12"
+  backend "s3" {         #moving local state file to remote state file in S3 bucket
+    bucket = "myapp-bucket"
+    key    = "path/state.tfstate"
+    region = "us-east-1"
+  }
+}
+
 provider "aws" {
   region = "us-east-1"
 }
